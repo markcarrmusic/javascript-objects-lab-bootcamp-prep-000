@@ -8,5 +8,4 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 // Update object by mutation
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  var dUOKV = object[key] = value
-}
+  object[key] = updateObjectWithKeyAndValue
