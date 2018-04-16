@@ -19,3 +19,8 @@ function deleteFromObjectByKey(object, key) {
   return newObj;
 }
 
+// Delete key/value pair from object by mutation
+function destructivelyDeleteFromObjectByKey(object, key) {
+  
+}
+
