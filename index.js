@@ -1,2 +1,2 @@
 // Recipe Object
-var recipe = {};
+var recipes = {};
