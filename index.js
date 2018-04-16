@@ -5,3 +5,8 @@ var recipes = {};
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, { [key]: value });
 }
+
+// Update object by mutation
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  
+}
