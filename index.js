@@ -1,0 +1,2 @@
+// Recipe Object
+var recipe = { }
